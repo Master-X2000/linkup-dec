@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Linkup||Sign Up</title>
+</head>
+<body class="signup_body">
+    <header>
+        <img src="images/top_logo.png" alt="" class="logo">
+
+        <input type="checkbox" id="nav_operator">
+        <label for="nav_operator">
+            <img src="images/icon_menu.svg" alt="" class="open_nav">
+        </label>
+
+        <label for="nav_operator" class="overlay">
+
+        </label>
+
+        <nav>
+            <label for="nav_operator">
+                <img src="images/icon_close.svg" alt="" class="close_nav">
+            </label>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="signUp.html">Sign up</a></li>
+            </ul>
+        </nav>
+   </header> 
+
+   <section class="main">
+        <h2 class="main_h2">Sign Up</h2>
+
+        <form action="index.html" class="signup_form">
+            <div class="entryarea">
+                <input type="text" placeholder="style" required id="input">
+                <label for="first_name">First Name</label>
+            </div>
+
+            <div class="entryarea">
+                <input type="text" placeholder="style" required id="input">
+                <label for="surname_name">Surname Name</label>
+            </div>
+
+           <div class="entryarea">
+                <input type="email" placeholder="style" id="input" required>
+                <label for="email">Enter Email</label>
+           </div>
+
+            <div class="entryarea">
+                <input type="password" placeholder="style" id="input" minlength="4" required>
+                <label for="password">Enter Password</label>
+            </div>
+
+            <button type="submit" class="sign-up_button">
+                Submit
+            </button>
+        </form>
+   </section>
+</body>
+</html>
